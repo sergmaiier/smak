@@ -1,0 +1,23 @@
+.button{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-radius: 1px solid var(--color-primary);
+	padding: 20px 60px;
+	font-size: 20px;
+	color: var(--color-white);
+	background-color: var(--color-primary);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+
+
+
+

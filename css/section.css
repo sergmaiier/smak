@@ -1,0 +1,28 @@
+.section{
+	padding: 50px 0px;
+}
+.section{
+	position: relative;
+}					
+.section-background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.section-overlay{
+	position: absolute;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.section-foreground{
+	position: relative;
+}
+
+.section-inverse{ /*для текста на темном фоне*/
+	color: var(--color-white);
+}
