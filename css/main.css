@@ -29,6 +29,9 @@
 .list-item{
 	
 }
-
+.social {
+  fill: var(--color-white);
+  fill-rule: evenodd;
+}
 
 
