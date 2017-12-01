@@ -6,7 +6,29 @@
 
 
 
-
+						/*<footer class="footer background-dark">*/
+.card-content{
+	min-height: 176px;
+	width: 100%;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.list-social{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+.list-item{
+	
+}
 
 
 
