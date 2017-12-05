@@ -24,7 +24,7 @@ table {
 }
 html {
 	font-family: sans-serif;
-    line-height: 1.15; /* 1 */
+    line-height: 2em; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -34,10 +34,10 @@ html {
  *    IE on Windows Phone and in iOS.
  */
 
-/*img{
+img{
 	max-width: 100%;
 	height: auto;
-}*/
+}
 ul, ol{
 	list-style: none;
 	padding-left: 0px;
@@ -47,10 +47,14 @@ a{
 	color: var(--color-white);
 	text-transform: uppercase;
 }
+p{
+	font: 300 16px/2em 'Oswald', sans-serif;
+}
 a:link{}
 a:visited{}
 a:hover{}
 a:active{}
+
 .container{
 	max-width: 1172px;
 	padding: 0px 15px;
@@ -63,6 +67,8 @@ a:active{}
 :root{
 	--color-primary: #ffe600;
 	--color-dark: #131a1d;
+	--color-black: #131316;
+	--color-dark-blue: #122a2f;
 	--color-white: #ffffff;
 	--color-title: #515151;
 	--color-text: #707070;
@@ -70,6 +76,34 @@ a:active{}
 .background-dark{
 	background-color: var(--color-dark);
 }
+.background-black{
+	background-color: var(--color-black);
+}
+.background-dark-blue{
+	background-color: var(--color-dark-blue);
+}
 .color-text-white{
 	color: var(--color-white);
+}
+.color-text-black{
+	color: var(--color-black);
+}
+.color-primary{
+	color: var(--color-primary);
+}
+.large-title{
+	font: 700 30px 'Oswald', sans-serif;
+	padding-bottom: 30px;
+}
+.average-title{
+	font: 400 16px 'Oswald', sans-serif;
+	color: var(--color-title);
+}
+.line::after{
+	content: '';
+    height: 2px;
+    width: 173px;
+    background-color: var(--color-primary);
+    display: block;
+    margin: 20px auto 0;
 }

@@ -4,21 +4,581 @@
 	<meta charset="UTF-8">
 	<title>Smak</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 </head>
 <body>
 
 <div class="wrapper">
-
-	<footer class="footer background-dark color-text-white">
+	<div class="section section-main">
+		<div class="section-background"></div>
+		<div class="section-foreground">
+			<header class="header">
+					<div class="container">
+						<nav class="navbar">
+							<div class="navbar-left">
+								<a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+							</div>
+							<div class="navbar-right">
+								<ul class="navbar-nav">
+									<li><a class="active hover" href="#HOME">HOME</a></li>
+									<li><a class="hover" href="#services">services</a></li>
+									<li><a class="hover" href="#work">work</a></li>
+									<li><a class="hover" href="#about">about</a></li>
+									<li><a class="hover"  href="#clients">clients</a></li>
+									<li><a class="hover"  href="#contact">contact</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</header>
+			<div class="section-body color-text-white background-dark-blue">
+				<div class="container">
+					<div class="card card-main center-content">
+						<div class="card-title">
+							<h1>
+								BRANDING HAVE ANOTHER<br> 
+								DEFINITION
+							</h1>
+						</div>
+						<div class="btn">
+							<a class="button" href="">BUY THIS THEME</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section-services">
+		
+			<div class="services">
+				
+				<div class="heading">
+					<div class="container">
+					<div class="heading-title average-title"><h2>OUR SERVICES</h2></div>
+					<div class="heading-subtitle large-title line"><h3>WHAT WE LOVE TO DO</h3></div>
+					<div class="heading-description">
+						<p>
+							Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor 
+							accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen
+							tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.
+						</p>
+					</div>
+					</div>
+				</div>
+				<div class="services-body">
+					<div class="container">
+					<div class="list list-services">
+						<div class="list-item">
+							<div class="card card-services">
+								<div class="services-icon-active card-image">
+									<svg xmlns="http://www.w3.org/2000/svg" width="38.844" height="35.35" viewBox="0 0 38.844 35.35">
+									  <path id="" class="services-icon-active web-icon" d="M493.034,1395.04l-1.056,5.96H518.44l-1.066,5.01H490.891l-1.268,5.92,26.743,0.04-1.769,7.95-10.666,3.54-9.245-3.54,0.459-2.95h-6.634l-1.239,7.54,15.288,5.85,17.626-5.85,5.947-29.47h-33.1Z" transform="translate(-487.281 -1395.03)"/>
+									</svg>	
+								</div>
+								<div class="card-title">
+									<h4>WEB DESIGN</h4>
+								</div>
+								<div class="card-description">
+									<p>
+										Donec sollicitudin molestie malesuada. Curabitur 
+										aliquet quam id dui posuere blandit.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-services">
+								<div class="card-image">
+									<svg xmlns="http://www.w3.org/2000/svg" width="38.375" height="38.41" viewBox="0 0 38.375 38.41">
+									  <path id="" class=" graphic-icon" d="M826.328,1402.77l-8.4-8.4,2.4-2.4,8.4,8.4Zm-2.4,2.4-1.2,13.2c-10.8,0-26.4,12-26.4,12l-1.993-1.99,10.264-10.26a3.656,3.656,0,0,0,1.329.25,3.6,3.6,0,1,0-3.346-2.27l-10.261,10.26-1.993-1.99s12-15.6,12-26.4l13.2-1.2Z" transform="translate(-790.344 -1391.97)"/>
+									</svg>	
+								</div>
+								<div class="card-title">
+									<h4>GRAPHIC DESIGN</h4>
+								</div>
+								<div class="card-description">
+									<p>
+										Donec sollicitudin molestie malesuada. Curabitur 
+										aliquet quam id dui posuere blandit.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-services">
+								<div class="card-image">
+									<svg xmlns="http://www.w3.org/2000/svg" width="38.91" height="31.03" viewBox="0 0 38.91 31.03">
+									  <path id="" class="photo-icon" d="M1102.61,1411.94a7.906,7.906,0,1,0,7.9-7.76,7.83,7.83,0,0,0-7.9,7.76m24.93-13.13h-8.51c-0.61-2.39-1.22-4.78-3.65-4.78h-9.73c-2.43,0-3.04,2.39-3.65,4.78h-8.52a2.416,2.416,0,0,0-2.43,2.38v21.5a2.424,2.424,0,0,0,2.43,2.39h34.06a2.427,2.427,0,0,0,2.44-2.39v-21.5a2.418,2.418,0,0,0-2.44-2.38m-17.03,23.73a10.6,10.6,0,1,1,10.8-10.6,10.692,10.692,0,0,1-10.8,10.6m17.47-16.54-4.99.03v-2.07l4.99,0.03V1406Z" transform="translate(-1091.06 -1394.03)"/>
+									</svg>	
+								</div>
+								<div class="card-title">
+									<h4>PHOTOGRAPHY</h4>
+								</div>
+								<div class="card-description">
+									<p>
+										Donec sollicitudin molestie malesuada. Curabitur 
+										aliquet quam id dui posuere blandit.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-services">
+								<div class="card-image">
+									<svg xmlns="http://www.w3.org/2000/svg" width="41.09" height="40.03" viewBox="0 0 41.09 40.03">
+									  <path id="" class="developing-icon" d="M1430.04,1413.75v-7.36l-6.24-1.11a13.662,13.662,0,0,0-.86-2.05l3.44-4.73-5.4-5.32-4.81,3.37a15.244,15.244,0,0,0-2.09-.85l-0.97-5.73h-7.64l-0.97,5.73a14.871,14.871,0,0,0-2.1.85l-4.8-3.37-5.4,5.31,3.43,4.74a15.531,15.531,0,0,0-.86,2.05l-5.83.96v7.51l5.85,0.96a13.436,13.436,0,0,0,.86,2.03l-3.45,4.75,5.4,5.32,4.83-3.4a14.82,14.82,0,0,0,2.06.84l0.98,5.76h7.64l0.97-5.76a14.82,14.82,0,0,0,2.06-.84l4.84,3.39,5.4-5.31-3.45-4.75a14.541,14.541,0,0,0,.86-2.03Zm-20.75,1.25a5.006,5.006,0,1,1,5.09-5.01,5.049,5.049,0,0,1-5.09,5.01" transform="translate(-1388.94 -1389.97)"/>
+									</svg>	
+								</div>
+								<div class="card-title">
+									<h4>DEVELOPING</h4>
+								</div>
+								<div class="card-description">
+									<p>
+										Donec sollicitudin molestie malesuada. Curabitur 
+										aliquet quam id dui posuere blandit.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="services-bottom background-dark color-text-white">
+					<div class="container">
+						<div class="heading">
+							<div class="heading-title large-title"><h3>HOW WE DO IT</h3></div>
+							<div class="heading-description">
+								<p>
+									Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. 
+								</p>
+							</div>
+						</div>
+						<div class="list list-services-bottom">
+							<div class="list-item">
+								<div class="card card-services-bottom">
+									<div class="card-image">
+										<img src="http://fakeimg.pl/150x150/">
+									</div>
+									<div class="card-title">
+										<h4>ANALYSE</h4>
+									</div>
+									<div class="card-description">
+										<p>
+											Vivamus suscipit tortor eget 
+											felis porttitor volutpat. Cura
+											bitur aliquet quam.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="list-item">
+								<div class="card card-services-bottom">
+									<div class="card-image">
+										<img src="http://fakeimg.pl/250x250/">
+									</div>
+									<div class="card-title">
+										<h4>PREPARING</h4>
+									</div>
+									<div class="card-description">
+										<p>
+											Vivamus suscipit tortor eget 
+											felis porttitor volutpat. Cura
+											bitur aliquet quam id dui posu
+											ere blandit
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="list-item">
+								<div class="card card-services-bottom">
+									<div class="card-image">
+										<img src="http://fakeimg.pl/50x50/">
+									</div>
+									<div class="card-title">
+										<h4>WORKING</h4>
+									</div>
+									<div class="card-description">
+										<p>
+											Vivamus suscipit tortor eget 
+											felis porttitor volutpat. 
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="list-item">
+								<div class="card card-services-bottom">
+									<div class="card-image">
+										<img src="http://fakeimg.pl/50x50/">
+									</div>
+									<div class="card-title">
+										<h4>FINALYSE</h4>
+									</div>
+									<div class="card-description">
+										<p>
+											Vivamus suscipit tortor eget 
+											felis porttitor volutpat. Cura
+											bitur aliquet quam id.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="list-item">
+								<div class="card card-services-bottom">
+									<div class="card-image">
+										<img src="http://fakeimg.pl/50x50/">
+									</div>
+									<div class="card-title">
+										<h4>TESTING</h4>
+									</div>
+									<div class="card-description">
+										<p>
+											Vivamus suscipit tortor eget 
+											felis porttitor volutpat. Cura
+											bitur aliquet quam id dui posu
+											ere blandit
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="list-item">
+								<div class="card card-services-bottom">
+									<div class="card-image">
+										<img src="http://fakeimg.pl/50x50/">
+									</div>
+									<div class="card-title">
+										<h4>DELIVER</h4>
+									</div>
+									<div class="card-description">
+										<p>
+											Vivamus suscipit tortor eget 
+											felis porttitor volutpat. Cur
+											est bitur.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+	<div class="section section-numbers background-dark color-text-white">
+		<div class="container">
+			<div class="numbers">
+				<div class="heading ">
+					<div class="heading-title large-title"><h2>WE ARE PROUD OF THESE NUMBERS</h2></div>
+					<div class="heading-description">
+						<p>
+							Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.
+						</p>
+					</div>
+				</div>
+				<div class="numbers-body">
+					<div class="list list-numbers">
+						<div class="list-item">
+							<div class="card card-numbers">
+								<div class="card-number"><span>1600</span></div>
+								<div class="card-title"><h5>HAPPY CLIENTS</h5></div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-numbers">
+								<div class="card-number"><span>3200</span></div>
+								<div class="card-title"><h5>COMPLETED PROJECTS</h5></div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-numbers">
+								<div class="card-number"><span>40</span></div>
+								<div class="card-title"><h5>AWARDS</h5></div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-numbers">
+								<div class="card-number"><span>20 000</span></div>
+								<div class="card-title"><h5>COFFEE DRINKS</h5></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section section-clients">
+		<div class="clients">
+			<div class="heading">
+				<div class="container">
+					<div class="heading-title average-title"><h2>OUR CLIENTS</h2></div>
+					<div class="heading-subtitle large-title"><h3>WHO LOVE TO WORK WITH US</h3></div>
+					<div class="heading-description">
+						<p>
+							Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor 
+							accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen
+							tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="clients-body">
+				<div class="container">
+					<div class="slider slider-top">
+					    <div class="slide">
+					    	<div class="list list-slider-top">
+					    		<div class="list-item">
+					    			<div class="list list-image">
+					    				<div class="list-item">
+					    					<img src="img/logo-1.png" alt="">
+					    					<img src="img/logo-2.png" alt="">
+					    					<img src="img/logo-3.png" alt="">
+					    					<img src="img/logo-4.png" alt="">
+					    					<img src="img/logo-5.png" alt="">
+					    					<img src="img/logo-1.png" alt="">
+					    				</div>
+					    			</div>
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="slide">
+					    	<div class="list list-slider-top">
+					    		<div class="list-item">
+					    			<div class="list list-image list-item">
+					    				<img src="img/logo-1.png" alt="">
+					    				<img src="img/logo-2.png" alt="">
+					    				<img src="img/logo-3.png" alt="">
+					    				<img src="img/logo-4.png" alt="">
+					    				<img src="img/logo-5.png" alt="">
+					    				<img src="img/logo-1.png" alt="">
+					    			</div>
+					    		</div>
+					    	</div>
+					    </div>
+					    <div class="slide">
+					    	<div class="list list-slider-top">
+					    		<div class="list-item">
+					    			<div class="list list-image list-item">
+					    				<img src="img/logo-1.png" alt="">
+					    				<img src="img/logo-2.png" alt="">
+					    				<img src="img/logo-3.png" alt="">
+					    				<img src="img/logo-4.png" alt="">
+					    				<img src="img/logo-5.png" alt="">
+					    				<img src="img/logo-1.png" alt="">
+					    			</div>
+					    		</div>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="clients-bottom background-dark color-text-white">
+				<div class="container">
+					<div class="slider slider-bottom">
+					    <div class="slide-bottom">
+					    	<div class="card card-services">
+								<div class="card-description line">
+					    			<blockquote>
+					    				“An image is not simply a trademark, a design, a slogan or an easily 
+					    				remembered picture. It is a studiously crafted personality profile of an
+					    				individual, institution,corporation, product or service”
+					    			</blockquote>
+					    		</div>
+					    		<div class="card-subtitle">
+					    			<p>Daniel J. Boorstin</p>
+					    		</div>
+					    	</div>
+					    </div>
+						    <div class="slide-bottom">
+						    	<div class="card card-services">
+									<div class="card-description line">
+						    			<blockquote>
+						    				“An image is not simply a trademark, a design, a slogan or an easily 
+						    				remembered picture. It is a studiously crafted personality profile of an
+						    				individual, institution,corporation, product or service”
+						    			</blockquote>
+						    		</div>
+						    		<div class="card-subtitle">
+						    			<p>Daniel J. Boorstin</p>
+						    		</div>
+						    	</div>
+						    </div>
+						        <div class="slide-bottom">
+						        	<div class="card card-services">
+						    			<div class="card-description line">
+						        			<blockquote>
+						        				“An image is not simply a trademark, a design, a slogan or an easily 
+						        				remembered picture. It is a studiously crafted personality profile of an
+						        				individual, institution,corporation, product or service”
+						        			</blockquote>
+						        		</div>
+						        		<div class="card-subtitle">
+						        			<p>Daniel J. Boorstin</p>
+						        		</div>
+						        	</div>
+						        </div>
+						            <div class="slide-bottom">
+						            	<div class="card card-services">
+						        			<div class="card-description line">
+						            			<blockquote>
+						            				“An image is not simply a trademark, a design, a slogan or an easily 
+						            				remembered picture. It is a studiously crafted personality profile of an
+						            				individual, institution,corporation, product or service”
+						            			</blockquote>
+						            		</div>
+						            		<div class="card-subtitle">
+						            			<p>Daniel J. Boorstin</p>
+						            		</div>
+						            	</div>
+						            </div>
+						                <div class="slide-bottom">
+						                	<div class="card card-services">
+						            			<div class="card-description line">
+						                			<blockquote>
+						                				“An image is not simply a trademark, a design, a slogan or an easily 
+						                				remembered picture. It is a studiously crafted personality profile of an
+						                				individual, institution,corporation, product or service”
+						                			</blockquote>
+						                		</div>
+						                		<div class="card-subtitle">
+						                			<p>Daniel J. Boorstin</p>
+						                		</div>
+						                	</div>
+						                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section-contact color-text-black">
+		<div class="container">
+			<div class="contact">
+				<div class="heading">
+					<div class="heading-title average-title"><h2>CONTACT US</h2></div>
+					<div class="heading-subtitle large-title line"><h3>WHERE YOU CAN FIND US</h3></div>
+					<div class="heading-description">
+						<p>
+							Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor 
+							accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pelle
+							ntesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.
+						</p>
+					</div>
+				</div>
+				<div class="contact-body">
+					<div class="list list-contact">
+						<div class="list-item">
+							<div class="card card-contact">
+								<div class="card-adress">
+									<div class="card-image">
+										<svg xmlns="http://www.w3.org/2000/svg" width="33.938" height="29" viewBox="0 0 33.938 29">
+										  <path id="Icon" class="contact-icon" d="M575.947,7496.02l-5.983-5.67v-10.3l-4.979-.04v5.46l-6.016-6.46-16.948,17.01,0.031,0.97,4.011-.03-0.032,11h10.9V7501l4.1-.03-0.031,7.02,10.963-.03,0.032-11,3.978,0.03Z" transform="translate(-542.031 -7479)"/>
+										</svg>
+									</div>
+									<div class="card-title">
+										<h4>OUR ADDRESS</h4>
+									</div>
+									<div class="card-subtitle">
+										<address>
+											214 Awesome Street,NY
+										</address>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-contact">
+								<div class="card-mail">
+									<div class="card-image">
+										<svg xmlns="http://www.w3.org/2000/svg" width="31.688" height="29.94" viewBox="0 0 31.688 29.94">									  
+										  <path id="" class="contact-icon" d="M958.469,7478.53c8.748,0,15.841,5.81,15.841,12.98s-7.093,12.98-15.841,12.98a18.263,18.263,0,0,1-2.471-.16c-3.4,3.44-7.463,4.05-11.391,4.14v-0.84c2.12-1.04,3.96-2.95,3.96-5.13a6.269,6.269,0,0,0-.066-0.9,12.249,12.249,0,0,1-5.873-10.09c0-7.17,7.092-12.98,15.841-12.98" transform="translate(-942.625 -7478.53)"/>
+										</svg>
+									</div>
+									<div class="card-title">
+										<h4>OUR MAIL</h4>
+									</div>
+									<div class="card-subtitle">
+										<address>
+											awesomemail@ourmail.com
+										</address>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="card card-contact">
+								<div class="card-phone">
+									<div class="card-image">
+										<svg xmlns="http://www.w3.org/2000/svg" width="31.65" height="31.66" viewBox="0 0 31.65 31.66">
+										  </defs>
+										  <path id="" class="contact-icon" d="M1365.83,7491.33c-2.11,2.12-2.11,4.23-4.22,4.23s-4.23-2.11-6.34-4.23-4.22-4.22-4.22-6.33,2.12-2.11,4.22-4.22-4.22-8.44-6.33-8.44-6.33,6.33-6.33,6.33c0,4.22,4.34,12.78,8.44,16.89s12.67,8.44,16.89,8.44c0,0,6.33-4.22,6.33-6.33s-6.33-8.45-8.44-6.34" transform="translate(-1342.63 -7472.34)"/>
+										</svg>
+									</div>
+									<div class="card-title">
+										<h4>OUR PHONE</h4>
+									</div>
+									<div class="card-subtitle">
+										<address>
+											(0) 123-456-789-00
+										</address>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section section-message background-dark">
+		<div class="container">
+			<div class="message">
+				<div class="heading color-text-white">
+					<div class="heading-title large-title"><h3>SEND US A MESSAGE</h3></div>
+					<div class="heading-description">
+						<p>
+							Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.
+						</p>
+					</div>
+				</div>
+				<div class="message-body">
+					<div class="message-form">
+						<div class="row-form">
+							<div class="column column-form">
+								<div class="column-item">
+									<input type="text" placeholder="Your Name" maxlength="5" class="form-control">
+								</div>
+								<div class="column-item">
+									<input type="text" placeholder="Your Mail" maxlength="5" class="form-control">
+								</div>
+								<div class="column-item">
+									<input type="text" placeholder="Subject" maxlength="5" class="form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row-form">
+							<textarea type="textarea"
+						placeholder="Enter Message Here..." maxlength="10" class="form-control"></textarea>
+						</div>
+						<div class="row-form">
+							<div class="btn">
+								<a class="button" href="">SEND MESSAGE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer background-black color-text-white">
 		<div class="container">
 			<div class="footer-content">
 				<div class="card card-content">
 					<div class="card-copyright">
-						© Copyright 2013 <a href="#">Smak</a>. All Rights Reserved.
+						© Copyright 2013 <span class="color-primary" href="#">Smak</span>. All Rights Reserved.
 					</div>
 					<div class="list list-social">
 						<div class="list-item">
@@ -54,7 +614,7 @@
 						</div>
 					</div>
 					<div class="card-button-up">
-						<a href="">
+						<a class="button-arrows" href="">
 							<svg xmlns="http://www.w3.org/2000/svg" width="18.438" height="18.07" viewBox="0 0 18.438 18.07">
 							
 							  <path id="Arrows_" data-name="arrows" class="arrows-bottom" d="M951.062,8481.39l0.694,0.69a0.97,0.97,0,0,0,1.388,0l6.856-6.85,6.856,6.85a0.968,0.968,0,0,0,1.387,0l0.694-.69a0.986,0.986,0,0,0,0-1.39l-8.237-8.23a0.99,0.99,0,0,0-1.4,0l-8.238,8.23A0.988,0.988,0,0,0,951.062,8481.39Zm0-7.17,0.694,0.69a0.987,0.987,0,0,0,1.388,0l6.856-6.86,6.856,6.86a0.986,0.986,0,0,0,1.387,0l0.694-.69a0.986,0.986,0,0,0,0-1.39l-8.237-8.24a1.015,1.015,0,0,0-1.4,0l-8.238,8.24A0.988,0.988,0,0,0,951.062,8474.22Z" transform="translate(-950.781 -8464.31)"/>
@@ -69,6 +629,13 @@
 </div>
 	
 
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <script src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>

@@ -1,7 +1,4 @@
 .section{
-	padding: 50px 0px;
-}
-.section{
 	position: relative;
 }					
 .section-background{
@@ -23,6 +20,31 @@
 	position: relative;
 }
 
+
 .section-inverse{ /*для текста на темном фоне*/
 	color: var(--color-white);
+}
+.heading{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.list{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.center-content{
+	width: ;
+	min-height: ;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 }
