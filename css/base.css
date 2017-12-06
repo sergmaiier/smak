@@ -59,7 +59,7 @@ a:active{}
 	max-width: 1172px;
 	padding: 0px 15px;
 	margin: 0 auto;
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 	/*background-color: yellowgreen;*/
 	/*display: flex;
 	flex-flow: row wrap;*/
@@ -87,6 +87,9 @@ a:active{}
 }
 .color-text-black{
 	color: var(--color-black);
+}
+.color-text-grey{
+	color: var(--color-text);
 }
 .color-primary{
 	color: var(--color-primary);

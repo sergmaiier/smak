@@ -217,6 +217,153 @@
 	padding-bottom: 60px;
 }
 
+
+						/*<div class="section section-about">*/
+
+.section-about .list-about{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: row wrap;
+  	justify-content: space-between;
+	
+}
+.section-about .list-item{
+	padding: 5px;
+	width: 560px;
+	height: 150px;
+	margin-top: 10px;
+}
+.card-about .card-image{
+	margin: 0px 35px 35px;
+}
+.about-image{
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 92px;
+    padding: 10px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card-about .card-image svg{
+	fill: var(--color-white);
+    fill-rule: evenodd;
+}
+.card-about{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.section-about .heading-description{
+	max-width: 818px;
+}
+
+						/*<div class="clients-bottom background-dark color-text-white">*/
+.section-clients{
+	padding-top: 40px;
+	background-color: tomato; 
+}
+.clients-bottom{
+	padding: 60px 0px;
+}
+.slide-bottom{
+	max-width: 579px
+	margin: 0 auto;
+}
+.section-clients .card-services{
+	max-width: 560px;
+	margin: 40px auto;
+}
+.section-clients .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 10px;
+    padding: 0;
+    cursor: pointer;
+}
+.list-slider-top .list-item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin: 70px auto;
+}
+.list-slider-top .icon-label{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	/*flex-grow: 1;*/
+}
+.icon-label img{
+	max-height: 45px;
+}
+
+/*.slider .slick-prev {
+    left: 45%;
+}
+.slider .slick-next {
+    right: 45%;
+}*/
+/*.slider .slick-prev, .slick-next {
+    top: 80%;
+}*/
+/*.slider .slick-prev{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 80%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: green;
+}
+
+.slider .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 80%; 
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}*/
+
+
+
 						/*<div class="section section-contact color-text-black">*/
 .contact{
 	padding-top: 50px;
@@ -272,7 +419,7 @@
 	padding: 20px 0px;
 }
 
-.card-content{
+/*.card-content{
 	min-height: 176px;
 	width: 100%;
 	display: -webkit-flex;
@@ -283,7 +430,7 @@
 	flex-flow: column;
 	justify-content: space-between;
 	align-items: center;
-}
+}*/
 .list-social{
 	display: -webkit-inline-flex;
 	display: -moz-inline-flex;
@@ -299,7 +446,7 @@
     fill: var(--color-white);
     fill-rule: evenodd;
 }
-.arrows-bottom{
+.arrows-bottom, .arrows-top{
 	fill: var(--color-white);
 	fill-rule: evenodd;
 }
@@ -314,52 +461,4 @@
 
 
 
-.section-clients{
-	padding-top: 40px; 
-}
-.clients-bottom{
-	padding: 60px 0px;
-}
-.slide-bottom{
-	max-width: 579px
-	margin: 0 auto;
-}
-.section-clients .slick-prev{
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    left: 45%;
-    display: block;
-    width: 20px;
-    top: 50%;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background: var(--color-primary);
-    kground: turquoise;
-}
-.section-clients .slick-next{
-	font-size: 0;
-    line-height: 0;
-    position: absolute;
-    right: 45%;
-    top: 50%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background: var(--color-primary);
-    kground: turquoise;
-}
+
